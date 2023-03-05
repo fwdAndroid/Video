@@ -45,6 +45,7 @@ class AboutActivity : AppCompatActivity() {
 
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         AdController.adCounter++
         if (AdController.adCounter == AdController.adDisplayCounter) {
